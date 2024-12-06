@@ -1,0 +1,89 @@
+header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.section_first {
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+
+.section_second {
+    display: flex;
+}
+
+.section_third {
+    display: flex;
+    gap: 9.5px;
+}
+
+.icon_twitch {
+    width: 24px;
+    height: 28px;
+}
+
+.icon_twitch_container {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browse_container {
+    display: flex;
+    align-items: center;
+    color: purple;
+    font-size: 17px;
+    height: 100%;
+}
+
+.browse_container p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px purple solid;
+}
+
+.more_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button_log_in {
+    background-color: ADADB8;
+    color: black;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+}
+
+.button_sign_up {
+    background-color: #9147FF;
+    color: white;
+    height: 30px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+#site_search {
+    height: 36px;
+    width: 356px;
+    padding-left: 10px;
+    color: black;
+    border-radius: 6px;
+    border: 1px solid rgb(134, 134, 134);
+}

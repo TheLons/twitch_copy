@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 315px;
+    width: 153px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 700;
+}

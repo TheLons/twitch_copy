@@ -1,0 +1,18 @@
+.container {
+    width: 19%;
+    max-width: 316px;
+    min-width: 172px;
+    height: 45px;
+    background-color: #5c16c5;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.container p {
+    padding-left: 15px;
+    font-weight: 700;
+}

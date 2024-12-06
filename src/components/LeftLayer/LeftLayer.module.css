@@ -1,0 +1,34 @@
+.container {
+    width: 240px;
+    position: fixed;
+    left: 0;
+    background-color: #efeff1;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.content_top {
+    width: 100%;
+    height: 21.5px;
+    margin: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}
+
+.content_top img {
+    padding-right: 10px;
+}
+
+.content_middle {
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}

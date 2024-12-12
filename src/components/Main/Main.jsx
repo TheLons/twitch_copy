@@ -32,6 +32,8 @@ import HorrorVideo3 from '../../assets/Images/HorrorGames/Video3.png'
 import HorrorVideo4 from '../../assets/Images/HorrorGames/Video4.png'
 import HorrorVideo5 from '../../assets/Images/HorrorGames/Video5.png'
 
+import ProfileIcon from '../../assets/Images/DescIcons/Profile1.png'
+
 const Main = () => {
     return (
         <>
@@ -125,30 +127,35 @@ const Main = () => {
                             name='🟨SPOOKY TIME🟨'
                             channel='caseoh_'
                             game='Waffle Cone Willie'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={Video2}
                             name='ACCOMPLISH ! but does meaned job …'
                             channel='loltyler1'
                             game='World of Warcraft'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={Video3}
                             name='!DROPS RFK FOR BIS, GNOMER FOR B…'
                             channel='Pikabooirl'
                             game='World of Warcraft'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={Video4}
                             name='43 HUNTER <OnlyFangs> FINAL COU…'
                             channel='shroud'
                             game='World of Warcraft'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={Video5}
                             name='<OnlyFangs> 43 magelet | R-R-RESU…'
                             channel='MOONMOON'
                             game='World of Warcraft'
+                            icon={ProfileIcon}
                         />
                     </div>
                     <div className={styles.showMore}>
@@ -163,30 +170,35 @@ const Main = () => {
                             name='running totem builds all night💀 !MER…'
                             channel='Skermz'
                             game='Dead by Daylight'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={HorrorVideo2}
                             name='✧ BIG GIWI 2.0 DEBUT!!! ✧ 8 DAY SUB…'
                             channel='Giwi'
                             game='Mouthwashing'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={HorrorVideo3}
                             name='✅!DROPS ENABLED✅ #1 BloodPoint …'
                             channel='LittleSpaceRock'
                             game='Dead by Daylight'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={HorrorVideo4}
                             name='ghost catching w/babes | Cheese-a-t…'
                             channel='cheese'
                             game='Phasmophobia'
+                            icon={ProfileIcon}
                         />
                         <VideoCard 
                             image={HorrorVideo5}
                             name='PERMA DEATH RANDOMIZER: ADA E…'
                             channel='Maxylobes'
                             game='Resident Evil 4'
+                            icon={ProfileIcon}
                         />
                     </div>
                     <div className={styles.showMore}>

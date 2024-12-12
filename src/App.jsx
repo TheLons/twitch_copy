@@ -3,6 +3,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home/Home'
 
+import './assets/Fonts/Helvetica/HelveticaNeueBlack.otf'
+import './assets/Fonts/Helvetica/HelveticaNeueBlackItalic.otf'
+import './assets/Fonts/Helvetica/HelveticaNeueBold.otf'
+import './assets/Fonts/Helvetica/HelveticaNeueBoldItalic.otf'
+import './assets/Fonts/Helvetica/HelveticaNeueHeavy.otf'
+import './assets/Fonts/Helvetica/HelveticaNeueHeavyItalic.otf'
+
 function App() {
 	const [count, setCount] = useState(0)
 

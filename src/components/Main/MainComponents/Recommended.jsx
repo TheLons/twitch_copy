@@ -6,7 +6,7 @@ const Recommended = ({ game, image, number_views, keywords }) => {
             <div className={styles.container}>
                 <img src={image} alt="Game image" />
                 <p className={styles.name}>{game}</p>
-                <p>{number_views} viewers</p>
+                <p className={styles.viewers}>{number_views} viewers</p>
             </div>
         </>
     )

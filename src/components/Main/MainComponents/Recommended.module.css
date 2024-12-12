@@ -1,15 +1,22 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 315px;
+    height: auto;
     width: 153px;
 }
 
 .container img {
     width: 100%;
+    padding-bottom: 5px;
 }
 
 .name {
     font-size: 14px;
     font-weight: 700;
+    line-height: 1.5;
+}
+
+.viewers {
+    font-size: 13px;
+    color: #696973;
 }

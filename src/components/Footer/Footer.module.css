@@ -5,18 +5,24 @@
     position: fixed;
     bottom: 0;
     align-items: center;
-    background-color:blueviolet;
+    background-color: #451093;
     justify-content: space-between;
+    color: #f7f7f8;
 }
 
 .footer_desc {
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer button {
     height: 30px;
     width: 69px;
     border-radius: 4px;
-    background-color: #f7f7f8;
+    background-color: white;
+    font-weight: 600;
+    border: none;
     margin-right: 50px;
 }

@@ -4,7 +4,37 @@
     padding: 0 10px;
     height: 42.39px;
     gap: 10px;
+    font-size: 13px;
+    justify-content: space-between;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;  
+}
+
+.image_container {
+    display: flex;
+    gap: 10px;
+}
+
+.image_container img {
+    width: 30px;
+    height: 30px;
+}
+
+.number_of_views {
+    color: black;
+    position: relative;
+}
+
+.number_of_views::before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    left: -12px;
+    top: 4px;
+    display: block;
+    position: absolute;
+
 }

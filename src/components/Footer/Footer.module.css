@@ -8,6 +8,7 @@
     background-color: #451093;
     justify-content: space-between;
     color: #f7f7f8;
+    z-index: 12;
 }
 
 .footer_desc {

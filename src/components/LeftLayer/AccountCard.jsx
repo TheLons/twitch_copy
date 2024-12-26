@@ -4,6 +4,10 @@ const AccountCard = ({avatar, profile_name, game, number}) => {
     // if (number >= 1000) {
     //     number = number
     // }
+    console.log(number);
+    if (number >= 1000) {
+        number = (number / 1000).toString() + 'K';
+    }
 
     return (
         <>
@@ -11,8 +15,8 @@ const AccountCard = ({avatar, profile_name, game, number}) => {
                 <div className={styles.image_container}>
                     <img src={avatar} alt="avatar icon 1" />
                     <div className={styles.description}>
-                        <p>{profile_name}</p>
-                        <p>{game}</p>
+                        <p className={styles.profile}>{profile_name}</p>
+                        <p className={styles.game}>{game}</p>
                     </div>
                 </div>
                 <div className={styles.number_of_views}>{number}</div>

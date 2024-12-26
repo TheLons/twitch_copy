@@ -71,51 +71,61 @@ const Main = () => {
                             game='Counter-Strike'
                             image={CounterStrike}
                             number_views='109000'
+                            keywords={['FPS', 'Shooter']}
                         />
                         <Recommended 
                             game='World of Warcraft'
                             image={WorldofWarcraft}
                             number_views='91000'
+                            keywords={['RPG']}
                         />
                         <Recommended 
                             game='Waffle Cone Willie'
                             image={WaffleConeWillie}
                             number_views='61100'
+                            keywords={['Horror']}
                         />
                         <Recommended 
                             game='Fortnite'
                             image={Fortnite}
                             number_views='51100'
+                            keywords={['Shooter', 'RPG']}
                         />
                         <Recommended 
                             game='League of Legends'
                             image={LeagueofLegends}
                             number_views='51100'
+                            keywords={['RPG', 'Strategy']}
                         />
                         <Recommended 
                             game='Grand Theft Auto V'
                             image={GrandTheftAuto}
                             number_views='49700'
+                            keywords={['FPS', 'Shooter']}
                         />
                         <Recommended 
                             game='VALORANT'
                             image={Valorant}
                             number_views='47100'
+                            keywords={['FPS', 'Shooter']}
                         />
                         <Recommended 
                             game='Dead by Daylight'
                             image={DeadbyDaylight}
                             number_views='41100'
+                            keywords={['Strategy', 'Action']}
                         />
                         <Recommended 
                             game='Overwatch 2'
                             image={Overwatch}
                             number_views='28400'
+                            keywords={['FPS', 'Shooter']}
                         />
                         <Recommended 
                             game='Call of Duty: Black Ops'
                             image={CallofDuty}
                             number_views='26700'
+                            keywords={['FPS', 'Shooter']}
                         />
                     </div>
                 </div>

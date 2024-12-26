@@ -11,6 +11,17 @@
     box-sizing: border-box;  
 }
 
+.profile {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1f1f23;
+}
+
+.game {
+    font-size: 13px;
+    color: #53535f;
+}
+
 .image_container {
     display: flex;
     gap: 10px;

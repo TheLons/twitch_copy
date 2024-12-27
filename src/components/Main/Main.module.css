@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
     font-family: Roobert, Helvetica, sans-serif;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -82,10 +82,35 @@
 
 .showMore {
     color: #5C16C5;
-    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.showMore p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+.showMore p:hover {
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    background-color: rgba(173, 173, 184, 0.22);
+}
+
+.showMore::before, .showMore::after {
+    content: "";
+    height: 1px;
+    background-color: rgba(173, 173, 184, 0.22);
+    width: 100%;
 }
 
 .lowest {
-    padding-bottom: 100px;
-    margin-top: 30px;
+    margin-bottom: 60px;
 }

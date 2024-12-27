@@ -7,3 +7,7 @@
 	font-family: "Inter", serif;
 	/* overflow: hidden; */
 }
+
+button:hover {
+	cursor: pointer;
+}

@@ -84,6 +84,10 @@ header {
     align-items: center;
 }
 
+.more_container:hover {
+    cursor: pointer;
+}
+
 .buttons_sign_in {
     display: flex;
     gap: 10px;
@@ -131,4 +135,13 @@ header {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border: 1px solid rgb(134, 134, 134);
+    box-sizing: border-box;
+}
+
+#site_search:hover {
+    border: 2px solid rgb(134, 134, 134);
+}
+
+#site_search:focus {
+    outline-width: 0;
 }

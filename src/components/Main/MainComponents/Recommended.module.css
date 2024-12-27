@@ -58,6 +58,10 @@
     transform: translate(6px, -6px);
 }
 
+.image_container:hover {
+    cursor: pointer;
+}
+
 .image_container:hover::before {
     transform: rotate(-45deg) scale(1);
 }
@@ -94,7 +98,7 @@
     color: #53535f;
     font-size: 12px;
     background-color: rgba(173, 173, 184, 0.22);
-    border-radius: 20% / 50%;
+    border-radius: 15% / 50%;
     font-weight: 600;
     padding: 2px 8px;
 }

@@ -1,6 +1,6 @@
 import styles from './VideoCard.module.css'
 
-const VideoCard = ({ image, name, channel, game, icon }) => {
+const VideoCard = ({ image, name, channel, game, icon, keywords }) => {
 
     return (
         <>
@@ -15,9 +15,13 @@ const VideoCard = ({ image, name, channel, game, icon }) => {
                     <div className={styles.desc}>
                         <p className={styles.video_name}>{name}</p>
                         <p>{channel}</p>
-                        <p>{game}</p>    
+                        <p>{game}</p>
+                        <div className={styles.keywords_container}>
+                            {keywords.map((keyword) => <div className={styles.keyword_container}>{keyword}</div>)}
+                        </div> 
                     </div>
                 </div>
+                
             </div>
         </>
     )

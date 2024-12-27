@@ -88,6 +88,7 @@
 
 .video_container:hover img {
     transform: translate(6px, -6px);
+    cursor: pointer;
 }
 
 .video_container:hover::after {
@@ -96,4 +97,22 @@
 
 .video_container:hover::before {
     transform: rotate(-45deg) scale(1);
+}
+
+.keywords_container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+}
+
+.keyword_container {
+    color: #53535f;
+    font-size: 12px;
+    background-color: rgba(173, 173, 184, 0.22);
+    border-radius: 15% / 50%;
+    font-weight: 600;
+    padding: 2px 8px;
 }

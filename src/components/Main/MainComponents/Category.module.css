@@ -23,3 +23,7 @@
     height: auto;
     overflow: unset;
 }
+
+.container:hover {
+    cursor: pointer;
+}

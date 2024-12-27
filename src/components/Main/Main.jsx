@@ -138,6 +138,7 @@ const Main = () => {
                             channel='caseoh_'
                             game='Waffle Cone Willie'
                             icon={ProfileIcon}
+                            keywords={['English']}
                         />
                         <VideoCard 
                             image={Video2}
@@ -145,6 +146,7 @@ const Main = () => {
                             channel='loltyler1'
                             game='World of Warcraft'
                             icon={ProfileIcon}
+                            keywords={['DropsEnabled', 'English']}
                         />
                         <VideoCard 
                             image={Video3}
@@ -152,6 +154,7 @@ const Main = () => {
                             channel='Pikabooirl'
                             game='World of Warcraft'
                             icon={ProfileIcon}
+                            keywords={['English', 'DropsEnabled']}
                         />
                         <VideoCard 
                             image={Video4}
@@ -159,6 +162,7 @@ const Main = () => {
                             channel='shroud'
                             game='World of Warcraft'
                             icon={ProfileIcon}
+                            keywords={['DropsEnabled', 'English']}
                         />
                         <VideoCard 
                             image={Video5}
@@ -166,10 +170,11 @@ const Main = () => {
                             channel='MOONMOON'
                             game='World of Warcraft'
                             icon={ProfileIcon}
+                            keywords={['ilovedogs', 'gamer', 'Doggo', 'dog']}
                         />
                     </div>
                     <div className={styles.showMore}>
-                        Show all
+                        <p>Show all</p>
                     </div>
                 </div>
                 <div className={`${styles.gaming} ${styles.lowest}`}>
@@ -181,6 +186,7 @@ const Main = () => {
                             channel='Skermz'
                             game='Dead by Daylight'
                             icon={ProfileIcon}
+                            keywords={['English', 'DropsEnabled']}
                         />
                         <VideoCard 
                             image={HorrorVideo2}
@@ -188,6 +194,7 @@ const Main = () => {
                             channel='Giwi'
                             game='Mouthwashing'
                             icon={ProfileIcon}
+                            keywords={['brainworms', 'WORM', 'dirt']}
                         />
                         <VideoCard 
                             image={HorrorVideo3}
@@ -195,6 +202,7 @@ const Main = () => {
                             channel='LittleSpaceRock'
                             game='Dead by Daylight'
                             icon={ProfileIcon}
+                            keywords={['Girl', 'IntoTheFog', 'Goth']}
                         />
                         <VideoCard 
                             image={HorrorVideo4}
@@ -202,6 +210,7 @@ const Main = () => {
                             channel='cheese'
                             game='Phasmophobia'
                             icon={ProfileIcon}
+                            keywords={['english', 'Speedrunner', 'English']}
                         />
                         <VideoCard 
                             image={HorrorVideo5}
@@ -209,10 +218,11 @@ const Main = () => {
                             channel='Maxylobes'
                             game='Resident Evil 4'
                             icon={ProfileIcon}
+                            keywords={['Marathon', 'English', 'AMA']}
                         />
                     </div>
                     <div className={styles.showMore}>
-                        Show all
+                        <p>Show all</p>
                     </div>
                 </div>
             </div>
